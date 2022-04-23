@@ -1,5 +1,5 @@
 import { useEffect } from "react"
-import MoleHill from './molehill.png'
+import MoleHill from '../public/images/mole.png'
 
 const EmptySlot= (props)=>{
     useEffect(() => {
@@ -20,3 +20,4 @@ const EmptySlot= (props)=>{
         </div>
     )
 }
+export default EmptySlot
